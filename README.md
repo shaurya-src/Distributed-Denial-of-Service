@@ -18,3 +18,9 @@ An Information Security Analysis and Audit Project at VIT, Vellore.
 - Wireshark
 
 ### Workflow:
+
+1. Host a test website on Victim VM using **nginx** server.
+2. Clone the repository on both Agent and Attacker VM.
+3. Setup static IP for all VMs on the same network.
+4. Enable SSH connection between the machines.
+5. Use 
